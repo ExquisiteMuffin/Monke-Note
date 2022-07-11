@@ -8,7 +8,7 @@ ISSUES:
 -Sometimes the app will reopen a second time upon closing
 -Text resizing doesn't only resize what you slect, it also resizes the rest of the document
 -Program can be slow as it was made in Python (which is a very slow language)
--Limites font options
+-Limits font options
 
 Great for:
 Notetaking and messing aorund with the themes

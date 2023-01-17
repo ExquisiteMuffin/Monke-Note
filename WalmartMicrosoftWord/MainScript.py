@@ -76,7 +76,6 @@ def default_select(pressed):
         curr_font = default_font
         curr_font.config(size=current_fontsize)
         main_text.configure(font = curr_font, padx = 120, pady = 42)
-#FUCKFHFEHUFHWEUIFHIUHGIWREGFUCCCCKKKKKKKKKKKKKKKKKKK   FUUUUUUUCCCKCKKCKCKCKCK
 def add_fontsize(pressed):
     global default_font
     global curr_font
@@ -87,7 +86,6 @@ def add_fontsize(pressed):
         font_disp.config(text = curr_str)
         curr_font.config(size = current_fontsize)
         main_text.configure(font = curr_font)
-#WHAT THE FUCK AM I DOINGGGGG
 def sub_fontsize(pressed):
     global default_font
     global curr_font
@@ -100,8 +98,9 @@ def sub_fontsize(pressed):
             curr_font.config(size = current_fontsize)
             main_text.configure(font = curr_font)
         else:
-            print(" ")
-#IM SO FUCKING SICK OF THIS PROJECT
+            print("debug")
+            # <<< alert message >>>
+            
 def make_bold():
     global curr_font
     main_text.selection_get()

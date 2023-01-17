@@ -57,8 +57,7 @@ def save_file():
         text_file.close()
     else:
         save_as_file()
-# WHOEVER USES THIS IS A RETARD
-#FUCKKKKKKKK
+        
 def save_as_file():
     #Save
     global save_update
@@ -71,7 +70,11 @@ def save_as_file():
     string = ''
     num = 0
     stall = 0
-    for x in range(0, len(text_file)):
+    for char in text_file[::-1]:
+        if char[x] == '/':
+            text_file.slice(x)
+            break
+    '''for x in range(0, len(text_file)):
         if(text_file[x] == '/'):
             count += 1
     for x in range(0, len(text_file)):
@@ -84,7 +87,7 @@ def save_as_file():
     MainScript.Ui.title(string)
     #Update Status:
     MainScript.status_label.configure(text="  File Saved!  ")
-    save_update
+    save_update'''
 
 '''def print():
     # Ask for file (Which you want to print)

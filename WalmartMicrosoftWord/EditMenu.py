@@ -29,3 +29,6 @@ def paste_text(e):
         position = MainScript.main_text.index(INSERT)
         #Pasting the selection that was recently copied/cut
         MainScript.main_text.insert(position , select)
+        
+def font:
+    pass

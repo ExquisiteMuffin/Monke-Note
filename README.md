@@ -11,7 +11,7 @@ ISSUES:
 -Limits font options
 
 Great for:
-Notetaking and messing aorund with the themes
+Notetaking and messing around with the themes
 
 Overall, this text editor is pretty garbage, but it was fun to make as a joke and is pretty fun to mess around with.
 Enjoy the buggy software!
